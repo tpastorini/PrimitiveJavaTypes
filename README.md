@@ -49,3 +49,5 @@ As same as long values, you must declare float and double numbers with a upperca
 float floatValue = 1.4E-45F;
 double doubleValue = 1.7976931348623157E308D;
 ``` 
+
+### Warning
