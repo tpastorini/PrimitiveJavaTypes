@@ -51,3 +51,9 @@ double doubleValue = 1.7976931348623157E308D;
 ``` 
 
 ### Warning
+
+For example, Byte data type has 8 bits signed size (look at the previous image). What means it? If you don't know, 2^8 = 256, so we have 256 differents values of this type of data (range -128 to 127 values). If you want to declare a variable which has a number 135 as a value, it will be an error because this number is outside of the default range values for a byte type. 
+
+### Others types: boolean and String types
+
+Boolean type is considered a primitive data type but it isn't a integer value because it takes only true or false values. Related to operators overload, Java hasn't it but when we speak about strings, we can considerer '+' operator like an overload. It means that we can join two differents strings and Java makes an output as if they were just one string.
