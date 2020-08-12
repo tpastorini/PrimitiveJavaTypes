@@ -5,7 +5,7 @@ When we are programming it is necessary to declare variables to store informatio
 ![Primitives_Java_Datatypes](/JavaDataTypes.png)
 
 
-###Usage
+### Usage
 
 These types of data have their minimum and maximum values which you can know it with something like this:
 
@@ -22,11 +22,11 @@ System.out.println("double\t\t" + Double.MIN_VALUE + "\t\t" + Double.MAX_VALUE);
 This code prints this:
 
 ```print
-Type		  Minimum			             Maximum
-byte		  -128			               127
-short		  -32768			             32767
-int		    -2147483648		           2147483647
-long		  -9223372036854775808	   9223372036854775807
-float		  1.4E-45			             3.4028235E38
-double		4.9E-324		             1.7976931348623157E308
+Type		Minimum			Maximum
+byte		-128			127
+short		-32768			32767
+int		-2147483648		2147483647
+long		-9223372036854775808	9223372036854775807
+float		1.4E-45			3.4028235E38
+double		4.9E-324		1.7976931348623157E308
 ```
